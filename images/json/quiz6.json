@@ -1,0 +1,100 @@
+[
+    {
+        "1": "With regard to efferent pupillary defect:",
+        "2": "The following are true about corneal sensation:",
+        "3": "The following are true about spectral sensitivity of the retina:",
+        "4": "Regarding retinal metabolism:",
+        "5": "The following conditions are required for rhodopsin regeneration:",
+        "6": "Which structure comprises the majority of the fibrous layer of the eyeball?",
+        "7": "Which structure forms the innermost layer of eye?",
+        "8": "What is the name given to the fluid which fills the anterior and posterior chambers of the eye?",
+        "9": "The following are true:",
+        "10": "Doll's head phenomenon:"
+    },
+    {
+        "1": {
+            "a": "the pupil reacts poorly to light and accommodation",
+            "b": "anisocoria is a feature",
+            "c": "the affected eye has poor distant vision",
+            "d": "a lesion in the sympathetic pathway is a recognized cause"
+        },
+        "2": {
+            "a": "the sensation is greatest at the apex and diminishes towards the limbus.",
+            "b": "the temporal half of the cornea is more sensitive than the nasal half",
+            "c": "the Bonnet-Cochet aesthesiometer gives quantitative measure of the degree of hypoaesthesia",
+            "d": "the density of nerve endings per unit area is 30 times that of the epidermis"
+        },
+        "3": {
+            "a": "in scotopic conditions, the peak sensitivity of the eye is near 500 nm",
+            "b": "under photopic conditions the peak sensitivity is near 555 nm",
+            "c": "in the presence of a bright yellow steady background light the retina has a peak sensitivity near 440 nm to a 25-Hz stimulus",
+            "d": "in the presence of a purple steady background light the peak sensitivity of retina is near 540 nm to a 25-Hz stimulus"
+        },
+        "4": {
+            "a": "insulin is essential for the uptake of glucose by the retina",
+            "b": "anaerobic metabolism predominates",
+            "c": "the pigment retinal epithelium stores glycogen and supplies the need of the retina",
+            "d": "the demand of oxygen is met entirely by the central retinal artery"
+        },
+        "5": {
+            "a": "NADPH",
+            "b": "darkness",
+            "c": "splitting of all trans-retinal from the opsin",
+            "d": "retinal isomerase"
+        },
+        "6": {
+            "a": "Cornea",
+            "b": "Sclera",
+            "c": "Choroid",
+            "d": "Retina"
+        },
+        "7": {
+            "a": "Sclera",
+            "b": "Choroid",
+            "c": "Retina",
+            "d": "Lens"
+        },
+        "8": {
+            "a": "Vitreous humour",
+            "b": "Cerebrospinal fluid",
+            "c": "Choroid",
+            "d": "Aqueous humour"
+        },
+        "9": {
+            "a": "a horopter is a straight line on which an object will stimulate corresponding retinal points",
+            "b": "objects further or nearer than the horopter to the eyes are always perceived as double",
+            "c": "objects in the Panum's area are perceived singly",
+            "d": "objects outside the Panum's are are perceived as double"
+        },
+        "10": {
+            "a": " refers to movement of the eyes in a direction opposite to which the head is suddenly moved",
+            "b": "elicits both horizontal and vertical vestibuloocular reflexes",
+            "c": "is absent in patients with brain stem death",
+            "d": "is impaired in patients with severe bilateral vestibular deficits"
+        }
+    },
+    {
+        "1": "the pupil reacts poorly to light and accommodation",
+        "2": "the sensation is greatest at the apex and diminishes towards the limbus.",
+        "3": "in scotopic conditions, the peak sensitivity of the eye is near 500 nm",
+        "4": "anaerobic metabolism predominates ",
+        "5": "splitting of all trans-retinal from the opsin",
+        "6": "Sclera",
+        "7": "Retina",
+        "8": "Aqueous humor",
+        "9": "objects outside the Panum's are are perceived as double",
+        "10": " refers to movement of the eyes in a direction opposite to which the head is suddenly moved"
+    },
+    {
+        "1": "the pupil reacts poorly to light and accommodation is the answer",
+        "2": "the sensation is greatest at the apex and diminishes towards the limbusis the answer.",
+        "3": " in scotopic conditions, the peak sensitivity of the eye is near 500 nm is the answer",
+        "4": " anaerobic metabolism predominates is the answer",
+        "5": "splitting of all trans-retinal from the opsin is the answer",
+        "6": " Sclera is the answer",
+        "7": "Retina is the answer",
+        "8": "Aqueous humour is the answer",
+        "9": "objects outside the Panum's are are perceived as double is the answer",
+        "10": " refers to movement of the eyes in a direction opposite to which the head is suddenly moved is the answer"
+    }
+]

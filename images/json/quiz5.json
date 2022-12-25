@@ -1,0 +1,80 @@
+[
+    {
+        "1": "When light falls on the eye, the pupil does not constrict if the optic nerve is severed",
+        "2": "Entoptic imagery may be caused by opacities of the cornea",
+        "3": "Rhodopsin is most sensitive to light with a wavelength of 500nm",
+        "4": "The following is true about dark adaptation:adaptation usually takes about 20 minutes",
+        "5": "Entoptic imagery may be caused by cells in the tear film",
+        "6": "True statement about dark adaptation includes:the threshold for light intensity falls",
+        "7": "True statement about dark adaptation includes:people who wear red goggle before entering a dark room has a faster dark adaptation",
+        "8": "When light falls on the eye, the pupil does not respond if the cholinergic system is blocked",
+        "9": "The following are true about dark adaptation:it is better with the fovea than the peripheral retina",
+        "10": " The following is true about dark adaptation:only regeneration of rhodopsin is responsible"
+    },
+    {
+        "1": {
+            "a": "true",
+            "b": "false"
+        },
+        "2": {
+            "a": "true",
+            "b": "false"
+        },
+        "3": {
+            "a": "true",
+            "b": "false"
+        },
+        "4": {
+            "a": "true",
+            "b": "false"
+        },
+        "5": {
+            "a": "true",
+            "b": "false"
+        },
+        "6": {
+            "a": "true",
+            "b": "false"
+        },
+        "7": {
+            "a": "true",
+            "b": "false"
+        },
+        "8": {
+            "a": "true",
+            "b": "false"
+        },
+        "9": {
+            "a": "true",
+            "b": "false"
+        },
+        "10": {
+            "a": "true",
+            "b": "false"
+        }
+    },
+    {
+        "1": "true",
+        "2": "false",
+        "3": "true",
+        "4": "true",
+        "5": "false",
+        "6": "true",
+        "7": "true",
+        "8": "true",
+        "9": "false",
+        "10": "false"
+    },
+    {
+        "1": "the answer is true",
+        "2": "the answer is false",
+        "3": "the answer is true",
+        "4": "the answer is true",
+        "5": "the answer is false",
+        "6": "the answer is true",
+        "7": "the answer is true",
+        "8": "the answer is true",
+        "9": "the answer is false",
+        "10": "the answer is false"
+    }
+]

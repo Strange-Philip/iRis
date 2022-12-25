@@ -1,0 +1,100 @@
+[
+    {
+        "1": "The following are true about the vestibuloocular reflex:",
+        "2": "The human lens:",
+        "3": "The following are true about the ERG:",
+        "4": "The following are true about critical fusion frequency:",
+        "5": "Structures involved in colour vision include:",
+        "6": "Area(s) in the visual cortex involved in colour vision include:",
+        "7": "Differences between the M cells and P cells include:",
+        "8": "The superior colliculi:",
+        "9": "The following are true about the sensitivity of the visual system:",
+        "10": "Purkinje's shift:"
+    },
+    {
+        "1": {
+            "a": "it receives input from the semi-circular canal",
+            "b": "it receives input from the otolith",
+            "c": "it is suppressed when the object is moving with the subject",
+            "d": "it keeps the image stable on the retina"
+        },
+        "2": {
+            "a": "has a uniform refractive index",
+            "b": "has a large radius of curvature anteriorly than posteriorly",
+            "c": "stops growing after birth",
+            "d": "derives its energy chiefly from anaerobic glycolysis"
+        },
+        "3": {
+            "a": "the ERG is always abnormal in patients with macular diseases",
+            "b": "flicker ERG can be used to isolate cone photoreceptors",
+            "c": "the b-wave of ERG is reduced in dark-adapted eye",
+            "d": "the ERG is abnormal in patients with glaucoma"
+        },
+        "4": {
+            "a": "it refers to the rate at which stimuli can be presented and still be perceived as separate stimuli",
+            "b": "it is dependent on visual acuity",
+            "c": "it is dependent on the spacing between neighbouring photoreceptors",
+            "d": "it depends on the time-resolving ability of the eye"
+        },
+        "5": {
+            "a": "parvocellular pathway",
+            "b": "superficial layer 4C of visual cortex",
+            "c": "superior collliculi",
+            "d": "geniculate layers 1-2"
+        },
+        "6": {
+            "a": "V8",
+            "b": "V1",
+            "c": "V2",
+            "d": "V3"
+        },
+        "7": {
+            "a": "M cells have larger cell bodies than P cells",
+            "b": "M cells have slower conduction rate than P cells",
+            "c": "M cells have larger receptive field than P cells",
+            "d": "M cells do not synapse in lateral geniculate body whereas P cells do"
+        },
+        "8": {
+            "a": "receives P fibres from the retina",
+            "b": "receives M fibres from the retina",
+            "c": "regulates saccade movement",
+            "d": "is the centre for pursuit movement"
+        },
+        "9": {
+            "a": "in the dark the peak sensitivity of the eye is around 500nm",
+            "b": "in the light the peak sensitivity of the eye is around 555nm",
+            "c": "the cone can not respond to white flickering light of 20 Hz and above",
+            "d": "photopic ERG has a larger value than scotopic ERG "
+        },
+        "10": {
+            "a": "refers to the transition of retinal sensitivity between photopic and scotopic vision",
+            "b": "refers to the shift in the spectral sensitivity of the human retina toward shorter wavelengths of light",
+            "c": "accounts for blue colour appearing brighter at dusk",
+            "d": "accounts for red colour appearing brighter at dawn"
+        }
+    },
+    {
+        "1": "it receives input from the semi-circular canal",
+        "2": "has a large radius of curvature anteriorly than posteriorly",
+        "3": "the b-wave of ERG is reduced in dark-adapted eye",
+        "4": "it depends on the time-resolving ability of the eye",
+        "5": "parvocellular pathway",
+        "6": "V8",
+        "7": "M cells have larger cell bodies than P cells",
+        "8": "receives M fibres from the retina",
+        "9": "in the dark the peak sensitivity of the eye is around 500nm",
+        "10": "refers to the transition of retinal sensitivity between photopic and scotopic vision"
+    },
+    {
+        "1": "it receives input from the semi-circular canal is the answer",
+        "2": "has a large radius of curvature anteriorly than posteriorly is the answer",
+        "3": "the b-wave of ERG is reduced in dark-adapted eye is the answer",
+        "4": "it depends on the time-resolving ability of the eye is the answer",
+        "5": "parvocellular pathway is the answer",
+        "6": "V8 is the answer",
+        "7": "M cells have larger cell bodies than P cells is the answer",
+        "8": "receives M fibres from the retina is the answer",
+        "9": " in the dark the peak sensitivity of the eye is around 500nm is the answer",
+        "10": "refers to the transition of retinal sensitivity between photopic and scotopic vision is the answer"
+    }
+]

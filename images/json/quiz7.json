@@ -1,0 +1,100 @@
+[
+    {
+        "1": "The following are true about ocular circulation",
+        "2": "The following may explain why a patient who had had a relative afferent pupillary defect has normal pupillary reaction to light:",
+        "3": "In efferent pupillary defect:",
+        "4": "With regard to nystagmus:",
+        "5": "Visual-evoked response:",
+        "6": "An increase in intra-ocular pressure occurs with:",
+        "7": "With regard to dark adaptation:",
+        "8": "True statements about EOG (electro-oculogram) include:",
+        "9": "The Bell's phenomenon:",
+        "10": "The following are true about pupil reaction to light:"
+    },
+    {
+        "1": {
+            "a": " only 4% of the total blood supply to the eye goes to the retina",
+            "b": "the choroidal blood flow in normal people is ten times that of the grey mater of the brain",
+            "c": "autoregulation occurs in both retinal and choroidal circulation",
+            "d": " a PaCO2 rise of 1 mm Hg induces a 3% rise in retinal blood flow"
+        },
+        "2": {
+            "a": "removal of a cataract",
+            "b": "resolution of optic neuritis",
+            "c": "anterior ischaemic optic neuropathy in both eyes",
+            "d": "development of bilateral papilloedema"
+        },
+        "3": {
+            "a": "anisocoria is present",
+            "b": "the damage may be in the visual cortex",
+            "c": "the damage may be in the superior colliculus",
+            "d": "the lesion may be in the ciliary ganglion"
+        },
+        "4": {
+            "a": "caloric nystagmus occurs when iced water is poured into the ear",
+            "b": "vestibular nystagmus occurs as a consequence of head rotation",
+            "c": "optokinetic nystagmus occurs as a consequence of the relative motion of the visual field",
+            "d": "the direction of a jerk nystagmus is characterized by the direction of the slow phase "
+        },
+        "5": {
+            "a": " is used primarily to detect visual loss due to retinal disease",
+            "b": "produces biphasic wavefronts",
+            "c": "may give falsely delayed latency if the patient is not concentrating",
+            "d": "produces responses in normal subjects with a latency of 100msec"
+        },
+        "6": {
+            "a": "normal blinking",
+            "b": "coughing",
+            "c": "hypercarbia",
+            "d": "pupillary dilatation"
+        },
+        "7": {
+            "a": "is a quicker process than light adaptation",
+            "b": "the sensitivity of the cones increases more rapidly than the rods",
+            "c": "it is monophasic in rod monochromatism",
+            "d": "the first limb of the curve represents rod recovery"
+        },
+        "8": {
+            "a": " the EOG light-peak to dark-trough ratio is reduced in central retinal vein occlusion",
+            "b": " the light peak of EOG is abnormal in Best's disease",
+            "c": "the EOG light rise is produced by depolarization of the basal membrane of the retinal pigment epithelium"
+           
+        },
+        "9": {
+            "a": "is reduced or absent in patients with thyroid orbitopathy",
+            "b": "if absent suggests brain stem disease",
+            "c": " is absent in Bell's palsy",
+            "d": "causes the globe to rotate 450 above the horizontal"
+        },
+        "10": {
+            "a": " secretion of acetylcholine is responsible for pupil dilatation",
+            "b": "constriction of the pupil is mediated by nerve fibres travelling in the short ciliary nerve",
+            "c": "dilatation of the pupil is mediated by nerve fibres travelling in the long ciliary nerve",
+            "d": "the sympathetic nerve innervates the dilator muscles"
+        }
+    },
+    {
+        "1": "only 4% of the total blood supply to the eye goes to the retina",
+        "2": "resolution of optic neuritis",
+        "3": "anisocoria is present",
+        "4": "caloric nystagmus occurs when iced water is poured into the ear",
+        "5": "may give falsely delayed latency if the patient is not concentrating",
+        "6": "normal blinking",
+        "7": "it is monophasic in rod monochromatism",
+        "8": "the light peak of EOG is abnormal in Best's disease",
+        "9": "is reduced or absent in patients with thyroid orbitopathy",
+        "10": "the sympathetic nerve innervates the dilator muscles"
+    },
+    {
+        "1": "only 4% of the total blood supply to the eye goes to the retina is the answer",
+        "2": "resolution of optic neuritis is the answer",
+        "3": "anisocoria is present is the answer",
+        "4": "caloric nystagmus occurs when iced water is poured into the ear is the answer",
+        "5": "may give falsely delayed latency if the patient is not concentrating is the answer",
+        "6": "normal blinking is the answer",
+        "7": "it is monophasic in rod monochromatism is the answer",
+        "8": "the light peak of EOG is abnormal in Best's disease is the answer",
+        "9": "is reduced or absent in patients with thyroid orbitopathy is the answer",
+        "10": "the sympathetic nerve innervates the dilator muscles is the answer"
+    }
+]

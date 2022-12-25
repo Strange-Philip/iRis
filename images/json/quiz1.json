@@ -1,0 +1,80 @@
+[
+    {
+        "1": "The endothelium maintains the integrity of the corneal stroma through an ATP-Na+, K+-dependent pump",
+        "2": "In eyes dilated with atropine, the thickness of the lens is increased",
+        "3": "35% of the weight of the lens is contributed by water",
+        "4": "The tear film has a higher pH than the serum",
+        "5": "The glands of Wolfring secrete the mucous component",
+        "6": "The following are water insoluble lens proteins a crystalline",
+        "7": "The oily component of the tear film is secreted by the meibomian glands",
+        "8": "The Rod closes its ion channel in response to flashes of light.",
+        "9": "the capsule of the lens is thicker posterior than anteriorly",
+        "10": "The endothelium receives its nutrient from the blood vessels surrounding the cornea"
+    },
+    {
+        "1": {
+            "a": "true",
+            "b": "false"
+        },
+        "2": {
+            "a": "true",
+            "b": "false"
+        },
+        "3": {
+            "a": "true",
+            "b": "false"
+        },
+        "4": {
+            "a": "true",
+            "b": "false"
+        },
+        "5": {
+            "a": "true",
+            "b": "false"
+        },
+        "6": {
+            "a": "true",
+            "b": "false"
+        },
+        "7": {
+            "a": "true",
+            "b": "false"
+        },
+        "8": {
+            "a": "true",
+            "b": "false"
+        },
+        "9": {
+            "a": "true",
+            "b": "false"
+        },
+        "10": {
+            "a": "true",
+            "b": "false"
+        }
+    },
+    {
+        "1": "true",
+        "2": "false",
+        "3": "true",
+        "4": "true",
+        "5": "false",
+        "6": "true",
+        "7": "true",
+        "8": "true",
+        "9": "false",
+        "10": "false"
+    },
+    {
+        "1": "the answer is true",
+        "2": "the answer is false",
+        "3": "the answer is true",
+        "4": "the answer is true",
+        "5": "the answer is false",
+        "6": "the answer is true",
+        "7": "the answer is true",
+        "8": "the answer is true",
+        "9": "the answer is false",
+        "10": "the answer is false"
+    }
+]

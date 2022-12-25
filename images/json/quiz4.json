@@ -1,0 +1,83 @@
+[
+    {
+        "1": " The following is true about crystallins found in the lens:they are water soluble",
+        "2": "The lens is more effective in absorbing light with long than short wave-lengths",
+        "3": "In the lens, production of fructose is increased in the presence of hyperglycaemia",
+        "4": "Poor Nutrition is associated with cataract formation",
+        "5": "When light falls on the eye, the pupil does not respond if the sympathetic system is not functioning",
+        "6": "During accommodation the lens moves towards the cornea",
+        "7": "In the lens, the osmolarity is higher than that of the aqueous",
+        "8": "The following are true about crystallins found in the lens, gamma crystallin is the smallest crystallin",
+        "9": "Rhodopsin is found in the inner segment of rods",
+        "10": "The following is true about dark adaptation, it is better with the fovea than the peripheral retina"
+    },
+    {
+        "1": {
+            "a": "true",
+            "b": "false"
+           
+        },
+        "2": {
+            "a": "true",
+            "b": "false"
+            
+        },
+        "3": {
+            "a": "true",
+            "b": "false"
+        },
+        "4": {
+            "a": "true",
+            "b": "false"
+        },
+        "5": {
+            "a": "true",
+            "b": "false"
+        },
+        "6": {
+            "a": "true",
+            "b": "false"
+        },
+        "7": {
+            "a": "true",
+            "b": "false"},
+        "8": {
+            "a": "true",
+            "b": "false"
+        },
+        "9": {
+            "a": "true",
+            "b": "false"
+           
+        },
+        "10": {
+            "a": "true",
+            "b": "false"
+            
+        }
+    },
+    {
+        "1": "true",
+        "2": "false",
+        "3": "true",
+        "4": "true",
+        "5": "false",
+        "6": "true",
+        "7": "true",
+        "8": "true",
+        "9": "false",
+        "10": "false"
+    },
+    {
+        "1": "the answer is true",
+        "2": "the answer is false",
+        "3": "the answer is true",
+        "4": "the answer is true",
+        "5": "the answer is false",
+        "6": "the answer is true",
+        "7": "the answer is true",
+        "8": "the answer is true",
+        "9": "the answer is false",
+        "10": "the answer is false"
+    }
+]

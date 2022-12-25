@@ -1,0 +1,80 @@
+[
+    {
+        "1": "The retinal pigment epithelium (RPE) is sensitive to hypervitaminosis A",
+        "2": "Sodium is found in higher concentration in the tear than in the serum",
+        "3": "The corneal stroma measures 500 um thick",
+        "4": "The following protein is found in the tear of a normal person have antibacterial activity;lysozyme",
+        "5": "The corneal stroma derives most of its oxygen from the precorneal tear film",
+        "6": "ERG is normal in patient with macular degeneration",
+        "7": "In electro-retinography, c-wave is produced by the RPE cells",
+        "8": "The retinal pigment epithelium (RPE) has multiple apical villi into which the outer segment of the photoreceptor outer segments are embedded.",
+        "9": "The corneal stroma is acellular which accounts for its transparency",
+        "10": "The corneal stroma contains collagen fibrils which forms obliquely oriented lamellae in the posterior third of the cornea"
+    },
+    {
+        "1": {
+            "a": "true",
+            "b": "false"
+        },
+        "2": {
+            "a": "true",
+            "b": "false"
+        },
+        "3": {
+            "a": "true",
+            "b": "false"
+        },
+        "4": {
+            "a": "true",
+            "b": "false"
+        },
+        "5": {
+            "a": "true",
+            "b": "false"
+        },
+        "6": {
+            "a": "true",
+            "b": "false"
+        },
+        "7": {
+            "a": "true",
+            "b": "false"
+        },
+        "8": {
+            "a": "true",
+            "b": "false"
+        },
+        "9": {
+            "a": "true",
+            "b": "false"
+        },
+        "10": {
+            "a": "true",
+            "b": "false"
+        }
+    },
+    {
+        "1": "true",
+        "2": "false",
+        "3": "true",
+        "4": "true",
+        "5": "false",
+        "6": "true",
+        "7": "true",
+        "8": "true",
+        "9": "false",
+        "10": "false"
+    },
+    {
+        "1": "the answer is true",
+        "2": "the answer is false",
+        "3": "the answer is true",
+        "4": "the answer is true",
+        "5": "the answer is false",
+        "6": "the answer is true",
+        "7": "the answer is true",
+        "8": "the answer is true",
+        "9": "the answer is false",
+        "10": "the answer is false"
+    }
+]
