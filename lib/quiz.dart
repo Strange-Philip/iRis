@@ -22,31 +22,30 @@ class _QuizOverviewState extends State<QuizOverview> {
   ];
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
-            appBar: AppBar(
-              centerTitle: true,
-              backgroundColor: Color(0xFF4354b3),
-              title: Text(
-                'Quiz',
-                style: TextStyle(
-                  fontFamily: 'Quicksand',
-                ),
-              ),
-              automaticallyImplyLeading: false,
-              elevation: 0,
+    return Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Color(0xFF4354b3),
+          title: Text(
+            'Quiz',
+            style: TextStyle(
+              fontFamily: 'Quicksand',
             ),
-            body: GridView.builder(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  childAspectRatio: 1.2,
-                  crossAxisSpacing: 0,
-                  mainAxisSpacing: 0,
-                ),
-                physics: BouncingScrollPhysics(),
-                itemCount: quizes.length,
-                itemBuilder: (context, index) => QuizCard(
-                      quiz: quizes[index],
-                    ))));
+          ),
+          automaticallyImplyLeading: false,
+          elevation: 0,
+        ),
+        body: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              childAspectRatio: 1.2,
+              crossAxisSpacing: 0,
+              mainAxisSpacing: 0,
+            ),
+            physics: BouncingScrollPhysics(),
+            itemCount: quizes.length,
+            itemBuilder: (context, index) => QuizCard(
+                  quiz: quizes[index],
+                )));
   }
 }

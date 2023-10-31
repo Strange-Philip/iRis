@@ -17,26 +17,22 @@ class Getjson extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future:
-          DefaultAssetBundle.of(context).loadString(quiz.quizdir!, cache: false),
+      future: DefaultAssetBundle.of(context).loadString(quiz.quizdir!, cache: false),
       builder: (context, snapshot) {
         List mydata = json.decode(snapshot.data.toString());
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Loading();
         } else if (snapshot.connectionState == ConnectionState.done) {
           if (mydata == null) {
-            return SafeArea(
-                child: Scaffold(
+            return Scaffold(
               appBar: AppBar(
                 centerTitle: true,
                 backgroundColor: Color(0xFF4354b3),
                 elevation: 0,
                 title: Text(
                   quiz.topic!,
-                  style: TextStyle(
-                      fontFamily: 'Quicksand',
-                      fontSize: 18,
-                      fontWeight: FontWeight.w600),
+                  style:
+                      TextStyle(fontFamily: 'Quicksand', fontSize: 18, fontWeight: FontWeight.w600),
                 ),
               ),
               body: Center(
@@ -53,8 +49,7 @@ class Getjson extends StatelessWidget {
                       height: 20,
                     ),
                     Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 15, vertical: 5),
+                      padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
                       child: Text(
                         "Quiz not available yet",
                         maxLines: 5,
@@ -69,7 +64,7 @@ class Getjson extends StatelessWidget {
                   ],
                 ),
               ),
-            ));
+            );
           } else {
             return Quizpage(
               mydata: mydata,
@@ -87,8 +82,7 @@ class Quizpage extends StatefulWidget {
   final List mydata;
   final String topic;
 
-  Quizpage({Key? key, required this.mydata, required this.topic})
-      : super(key: key);
+  Quizpage({Key? key, required this.mydata, required this.topic}) : super(key: key);
   @override
   _QuizpageState createState() => _QuizpageState(mydata);
 }
@@ -226,9 +220,7 @@ class _QuizpageState extends State<Quizpage> {
                   child: Text(
                     mydata[1][i.toString()][k],
                     style: TextStyle(
-                        fontSize: 16,
-                        fontFamily: 'Quicksand',
-                        fontWeight: FontWeight.bold),
+                        fontSize: 16, fontFamily: 'Quicksand', fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -244,10 +236,7 @@ class _QuizpageState extends State<Quizpage> {
         elevation: 0,
         title: Text(
           widget.topic,
-          style: TextStyle(
-              fontFamily: 'Quicksand',
-              fontSize: 18,
-              fontWeight: FontWeight.w600),
+          style: TextStyle(fontFamily: 'Quicksand', fontSize: 18, fontWeight: FontWeight.w600),
         ),
       ),
       body: mydata.isEmpty
@@ -370,8 +359,7 @@ class _QuizpageState extends State<Quizpage> {
           onPressed: () {
             Navigator.pop(context);
           },
-          backgroundColor:
-              int.parse(showtimer) > 10 ? Colors.green : Colors.red),
+          backgroundColor: int.parse(showtimer) > 10 ? Colors.green : Colors.red),
     );
   }
 }

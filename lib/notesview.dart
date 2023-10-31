@@ -13,7 +13,7 @@ class NoteView extends StatefulWidget {
 }
 
 class _NoteViewState extends State<NoteView> {
-  Note ?selectedNote;
+  Note? selectedNote;
 
   @override
   void didChangeDependencies() {
@@ -30,8 +30,7 @@ class _NoteViewState extends State<NoteView> {
   @override
   Widget build(BuildContext context) {
     final color = hexToColor(selectedNote!.color);
-    return SafeArea(
-        child: Scaffold(
+    return Scaffold(
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
@@ -66,9 +65,7 @@ class _NoteViewState extends State<NoteView> {
                             padding: const EdgeInsets.only(right: 8.0),
                             child: TextButton(
                               style: ButtonStyle(
-                                backgroundColor:
-                                    MaterialStateProperty.all<Color>(
-                                        Colors.white),
+                                backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
                               ),
                               child: Text(
                                 'No',
@@ -90,8 +87,7 @@ class _NoteViewState extends State<NoteView> {
                               child: TextButton(
                                 style: ButtonStyle(
                                   backgroundColor:
-                                      MaterialStateProperty.all<Color>(
-                                          Color(0xFF4354b3)),
+                                      MaterialStateProperty.all<Color>(Color(0xFF4354b3)),
                                 ),
                                 child: Text(
                                   'Yes',
@@ -103,12 +99,10 @@ class _NoteViewState extends State<NoteView> {
                                 ),
                                 onPressed: () async {
                                   Navigator.pop(context);
-                                  await Provider.of<NoteProvider>(context,
-                                          listen: false)
+                                  await Provider.of<NoteProvider>(context, listen: false)
                                       .deleteNote(selectedNote!.id);
                                   Navigator.pop(context);
-                                  ScaffoldMessenger.of(context)
-                                      .showSnackBar(SnackBar(
+                                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                                     elevation: 0,
                                     content: const Text('Note Deleted'),
                                     duration: const Duration(seconds: 2),
@@ -128,8 +122,7 @@ class _NoteViewState extends State<NoteView> {
       floatingActionButton: FloatingActionButton(
         elevation: 0,
         onPressed: () {
-          Navigator.of(this.context)
-              .pushNamed('noteEdit', arguments: selectedNote!.id);
+          Navigator.of(this.context).pushNamed('noteEdit', arguments: selectedNote!.id);
         },
         backgroundColor: color,
         child: Icon(
@@ -185,8 +178,7 @@ class _NoteViewState extends State<NoteView> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: DecorationImage(
-                            image: FileImage(File(selectedNote!.imagePath)),
-                            fit: BoxFit.cover)),
+                            image: FileImage(File(selectedNote!.imagePath)), fit: BoxFit.cover)),
                   ),
                 ],
               ),
@@ -203,6 +195,6 @@ class _NoteViewState extends State<NoteView> {
               )),
         ],
       )),
-    ));
+    );
   }
 }

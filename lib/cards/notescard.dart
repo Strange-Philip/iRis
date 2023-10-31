@@ -5,7 +5,7 @@ import '../models/constants.dart';
 import '../models/notes.dart';
 
 class NotesCard extends StatelessWidget {
-  final Note ?note;
+  final Note? note;
   const NotesCard({
     Key? key,
     this.note,
@@ -34,8 +34,7 @@ class NotesCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: hexToColor(note!.color),
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(10),
-                      bottomLeft: Radius.circular(10)),
+                      topLeft: Radius.circular(10), bottomLeft: Radius.circular(10)),
                 ),
               ),
               SizedBox(width: 10),
@@ -68,7 +67,7 @@ class NotesCard extends StatelessWidget {
                               ),
                             ),
                             Spacer(),
-                            note!.imagePath == null || note!.imagePath == ""
+                            note!.imagePath == ""
                                 ? SizedBox()
                                 : Padding(
                                     padding: const EdgeInsets.only(right: 0),
@@ -98,7 +97,6 @@ class NotesCard extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
-                     
                     ],
                   ),
                 ),

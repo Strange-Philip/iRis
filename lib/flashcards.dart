@@ -48,8 +48,7 @@ class _FlashCardsState extends State<FlashCards> {
   ];
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
+    return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xFF4354b3),
@@ -69,13 +68,12 @@ class _FlashCardsState extends State<FlashCards> {
               itemCount: flashcardlist.length,
               itemBuilder: (context, index) {
                 return Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                   child: Flash(
                     flashCard: flashcardlist[index],
                   ),
                 );
               })),
-    ));
+    );
   }
 }

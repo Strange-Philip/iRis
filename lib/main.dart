@@ -33,18 +33,12 @@ class MyApp extends StatelessWidget {
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-              primarySwatch: Colors.blue,
-              scaffoldBackgroundColor: Colors.grey[100]),
-          home: SafeArea(
-            child: Container(
-              decoration: const BoxDecoration(color: Colors.white),
-              child: Center(
-                child: Container(
-                  child: intScreen == 0 || intScreen == null
-                      ? const IntroductionScreen()
-                      : VerifyUser(),
-                ),
+          theme: ThemeData(primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.grey[100]),
+          home: Container(
+            decoration: const BoxDecoration(color: Colors.white),
+            child: Center(
+              child: Container(
+                child: intScreen == 0 || intScreen == null ? const IntroScreen() : VerifyUser(),
               ),
             ),
           ),

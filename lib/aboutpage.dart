@@ -8,8 +8,7 @@ class AboutPage extends StatefulWidget {
 class _AboutPageState extends State<AboutPage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
+    return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Color(0xFF4354b3),
@@ -27,12 +26,10 @@ class _AboutPageState extends State<AboutPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
               child: Text(
                 "iRis© App is an interactive ocular anatomy and physiology instant resource for students and practitioners. The App is an unparalleled source knowledge, providing immediate access to detailed notes from students in a simple language for easy understanding. It combines interactive pictures and systematic arrangement and orderly presentation of ideas. iRis makes Ocular Physiology and Anatomy easy and enjoyable to study",
-                
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 16,
@@ -44,7 +41,6 @@ class _AboutPageState extends State<AboutPage> {
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               child: Text(
                 "A project work in partial fulfilment of the course, OPT234: OCULAR PHYSIOLOGY.",
-                
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 16,
@@ -57,7 +53,6 @@ class _AboutPageState extends State<AboutPage> {
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               child: Text(
                 "This App was a project work for the course, “Ocular Physiology”, supervised by Dr. Carl Halladay Abraham for second year Optometry students in the Department of Optometry, University of Cape Coast, Ghana.",
-                
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 16,
@@ -69,7 +64,6 @@ class _AboutPageState extends State<AboutPage> {
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
               child: Text(
                 "The Team Members are;  \n1.	Paul Owusu   \n2.	Philip Abakah Mensah  \n3.	Esthella Yeadoo  \n4.	Gideon Datsomor  \n5.	Seyram Afi Tunyo",
-                
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 16,
@@ -94,6 +88,6 @@ class _AboutPageState extends State<AboutPage> {
           ],
         ),
       ),
-    ));
+    );
   }
 }

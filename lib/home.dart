@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -26,7 +27,7 @@ String greetingMessage() {
 
 class _HomeState extends State<Home> {
   String greetingMes = greetingMessage();
-  String ?name;
+  String? name;
   List<Topic> topics = [
     Topic(
       'The Eyeball',
@@ -166,20 +167,18 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
+    return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.transparent,
         automaticallyImplyLeading: false,
         elevation: 0,
+        systemOverlayStyle: SystemUiOverlayStyle.dark,
         actions: [
           GestureDetector(
             onTap: () {
               Navigator.push(
-                  context,
-                  new MaterialPageRoute(
-                      builder: (BuildContext context) => FlashCards()));
+                  context, new MaterialPageRoute(builder: (BuildContext context) => FlashCards()));
             },
             child: Image.asset(
               'images/sticky.png',
@@ -228,6 +227,6 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-    ));
+    );
   }
 }

@@ -28,8 +28,7 @@ class _NotesState extends State<Notes> {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Loading();
           } else if (snapshot.connectionState == ConnectionState.done) {
-            return SafeArea(
-                child: Scaffold(
+            return Scaffold(
               appBar: AppBar(
                 centerTitle: true,
                 backgroundColor: Color(0xFF4354b3),
@@ -50,24 +49,23 @@ class _NotesState extends State<Notes> {
                 ],
               ),
               body: Consumer<NoteProvider>(
-                builder: (context, noteprovider, child) =>
-                    noteprovider.items.isEmpty
-                        ? SizedBox()
-                        : ListView.builder(
-                            physics: const BouncingScrollPhysics(),
-                            itemCount: noteprovider.items.length + 1,
-                            itemBuilder: (context, index) {
-                              if (index == 0) {
-                                return Container();
-                              } else {
-                                // SizedBox(height: 30,);
-                                final i = index - 1;
-                                final item = noteprovider.items[i];
-                                return NotesCard(
-                                  note: item,
-                                );
-                              }
-                            }),
+                builder: (context, noteprovider, child) => noteprovider.items.isEmpty
+                    ? SizedBox()
+                    : ListView.builder(
+                        physics: const BouncingScrollPhysics(),
+                        itemCount: noteprovider.items.length + 1,
+                        itemBuilder: (context, index) {
+                          if (index == 0) {
+                            return Container();
+                          } else {
+                            // SizedBox(height: 30,);
+                            final i = index - 1;
+                            final item = noteprovider.items[i];
+                            return NotesCard(
+                              note: item,
+                            );
+                          }
+                        }),
                 child: Center(
                   child: Column(
                     children: [
@@ -82,8 +80,7 @@ class _NotesState extends State<Notes> {
                         height: 20,
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 15, vertical: 5),
+                        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
                         child: Text(
                           "No Notes Yet \nTap on the Plus Icon to add notes",
                           maxLines: 5,
@@ -99,7 +96,7 @@ class _NotesState extends State<Notes> {
                   ),
                 ),
               ),
-            ));
+            );
           }
           return Container();
         });

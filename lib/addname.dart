@@ -74,10 +74,7 @@ class _AddNameState extends State<AddName> {
                     decoration: const InputDecoration(hintText: 'First Name'),
                     autovalidateMode: AutovalidateMode.onUserInteraction,
                     keyboardType: TextInputType.text,
-                    validator: FormBuilderValidators.compose([
-                      FormBuilderValidators.required(context,
-                          errorText: "First name is required "),
-                    ]),
+                    // validator:
                   )),
             ),
           ],
@@ -92,14 +89,11 @@ class _AddNameState extends State<AddName> {
             SharedPreferences prefs = await SharedPreferences.getInstance();
             prefs.setString('name', _formkey.currentState!.value['name']);
             prefs.setBool('isLoggin', true);
-            Navigator.pushReplacement(
-                context, MaterialPageRoute(builder: (_) => BtnNavbar()));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => BtnNavbar()));
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               content: Text('Welcome ${_formkey.currentState!.value['name']}',
                   style: const TextStyle(
-                      fontFamily: 'Quicksand',
-                      fontWeight: FontWeight.w500,
-                      fontSize: 18)),
+                      fontFamily: 'Quicksand', fontWeight: FontWeight.w500, fontSize: 18)),
               duration: const Duration(seconds: 3),
               backgroundColor: Colors.green,
               elevation: 0,
@@ -114,10 +108,7 @@ class _AddNameState extends State<AddName> {
         ),
         label: const Text(
           'Go',
-          style: TextStyle(
-              fontFamily: 'Quicksand',
-              fontWeight: FontWeight.w500,
-              fontSize: 20),
+          style: TextStyle(fontFamily: 'Quicksand', fontWeight: FontWeight.w500, fontSize: 20),
         ),
       ),
     );

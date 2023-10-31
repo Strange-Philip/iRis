@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:fast_color_picker/fast_color_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:path/path.dart';
@@ -35,8 +36,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
     if (firstTime) {
       id = ModalRoute.of(this.context)!.settings.arguments;
       if (id != null) {
-        selectedNote =
-            Provider.of<NoteProvider>(this.context, listen: false).getNote(id);
+        selectedNote = Provider.of<NoteProvider>(this.context, listen: false).getNote(id);
 
         titleController.text = selectedNote!.title;
         contentController.text = selectedNote!.content;
@@ -51,13 +51,13 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
+    return Scaffold(
       appBar: AppBar(
         elevation: 0,
         iconTheme: Theme.of(context).iconTheme,
         backgroundColor: Colors.transparent,
         automaticallyImplyLeading: false,
+        systemOverlayStyle: SystemUiOverlayStyle.dark,
         leading: IconButton(
             icon: Icon(LineIcons.times, color: Colors.black),
             onPressed: () {
@@ -103,9 +103,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
                               padding: const EdgeInsets.only(right: 8.0),
                               child: TextButton(
                                 style: ButtonStyle(
-                                  backgroundColor:
-                                      MaterialStateProperty.all<Color>(
-                                          Colors.white),
+                                  backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
                                 ),
                                 child: Text(
                                   'No',
@@ -127,8 +125,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
                                 child: TextButton(
                                   style: ButtonStyle(
                                     backgroundColor:
-                                        MaterialStateProperty.all<Color>(
-                                            Color(0xFF4354b3)),
+                                        MaterialStateProperty.all<Color>(Color(0xFF4354b3)),
                                   ),
                                   child: Text(
                                     'Yes',
@@ -140,12 +137,10 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
                                   ),
                                   onPressed: () async {
                                     Navigator.pop(context);
-                                    await Provider.of<NoteProvider>(context,
-                                            listen: false)
+                                    await Provider.of<NoteProvider>(context, listen: false)
                                         .deleteNote(selectedNote!.id);
                                     Navigator.pop(context);
-                                    ScaffoldMessenger.of(context)
-                                        .showSnackBar(SnackBar(
+                                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                                       elevation: 0,
                                       content: const Text('Note Deleted'),
                                       duration: const Duration(seconds: 2),
@@ -180,10 +175,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
           children: [
             Text(
               'Add',
-              style: TextStyle(
-                  fontFamily: 'Quicksand',
-                  fontWeight: FontWeight.w500,
-                  fontSize: 20),
+              style: TextStyle(fontFamily: 'Quicksand', fontWeight: FontWeight.w500, fontSize: 20),
             ),
             Icon(
               LineIcons.plus,
@@ -229,8 +221,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
                   Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        image: DecorationImage(
-                            image: FileImage(_image!), fit: BoxFit.cover)),
+                        image: DecorationImage(image: FileImage(_image!), fit: BoxFit.cover)),
                   ),
                   Align(
                     alignment: Alignment.bottomRight,
@@ -309,7 +300,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
             ),
         ],
       )),
-    ));
+    );
   }
 
   @override
@@ -345,14 +336,8 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
     print(content);
     print("checking : ${color.value.toRadixString(16)}");
     if (id != null) {
-      Provider.of<NoteProvider>(this.context, listen: false).addOrUpdateNote(
-          id,
-          title,
-          content,
-          imagePath!,
-          color.value.toRadixString(16),
-          isAchived,
-          EditMode.UPDATE);
+      Provider.of<NoteProvider>(this.context, listen: false).addOrUpdateNote(id, title, content,
+          imagePath!, color.value.toRadixString(16), isAchived, EditMode.UPDATE);
       Navigator.pop(this.context);
       ScaffoldMessenger.of(this.context).showSnackBar(SnackBar(
         elevation: 0,
@@ -365,13 +350,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
       int id = DateTime.now().microsecondsSinceEpoch;
       print('done');
       Provider.of<NoteProvider>(this.context, listen: false).addOrUpdateNote(
-          id,
-          title,
-          content,
-          imagePath!,
-          color.value.toRadixString(16),
-          isAchived,
-          EditMode.ADD);
+          id, title, content, imagePath!, color.value.toRadixString(16), isAchived, EditMode.ADD);
       print('doneNow');
       // Navigator.of(this.context)
       //     .pushReplacementNamed('homepage', arguments: id);
