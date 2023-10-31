@@ -2,7 +2,7 @@
 
 # Iris(Instant resourse instant results)
 
-A simple note educational app which contains notes taking,flash cards,quizes and educational resourse materials for Ocular Physiology.
+A simple educational app which contains notes taking,flash cards,quizes and educational resourse materials for Ocular Physiology.
 
 *This mobile app was built in early 2021 as part of a group assignment in school*
 
