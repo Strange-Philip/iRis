@@ -25,7 +25,7 @@ A simple educational app which contains notes taking,flash cards,quizes and educ
 
 
 #### Download the APK
-- [Iris App Apk](https://drive.google.com/file/d/10CThsevS2m7QxHOVo-UXwCQtyQ7SshaM/view?usp=drive_link)
+- [Iris App Apk](https://drive.google.com/file/d/1gL7s_bCo3x6Qxi_C9KaAmzIomC7snGc5/view?usp=sharing)
 
 
 #### Framework
