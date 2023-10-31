@@ -24,7 +24,7 @@ A simple educational app which contains notes taking,flash cards,quizes and educ
 
 | Quiz Page | | Quiz Result |
 | :---: | --- | :---: |
-| <img src="images/screen_intro.png" width="300"> || <img src="images/screen_quiz.png" width="300"> |
+| <img src="images/screen_quiz1.png" width="300"> || <img src="images/screen_quiz2.png" width="300"> |
 | An example of true/false type quiz <br> there are multiple choice questions too|| A quiz result page  <br> that have good interactions and ux |
 
 #### Download the APK
