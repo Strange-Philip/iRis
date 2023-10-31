@@ -22,7 +22,10 @@ A simple educational app which contains notes taking,flash cards,quizes and educ
 | <img src="images/screen_course.png" width="300"> || <img src="images/screen_preview.png" width="300"> |
 | Course details page which uses the  <br> webview package locally|| A little preview of the app  |
 
-
+| Quiz Page | | Quiz Result |
+| :---: | --- | :---: |
+| <img src="images/screen_intro.png" width="300"> || <img src="images/screen_quiz.png" width="300"> |
+| An example of true/false type quiz <br> there are multiple choice questions too|| A quiz result page  <br> that have good interactions and ux |
 
 #### Download the APK
 - [Iris App Apk](https://drive.google.com/file/d/1gL7s_bCo3x6Qxi_C9KaAmzIomC7snGc5/view?usp=sharing)
