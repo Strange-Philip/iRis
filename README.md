@@ -48,7 +48,6 @@ Took some inspiration from pinterest but basically built out the ui all by mysel
 ##### P.S.
 Feel free to clone and mess around. Pull requests are welcome. There's a lot of data from the backend that isn't being used as per the requirements of the challenge but they can make the app's UI richer.Plus its pretty old code so it may mess up a bit 😅
 
-A new Flutter project.
 
 ## Getting Started
 
